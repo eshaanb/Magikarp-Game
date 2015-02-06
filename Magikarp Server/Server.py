@@ -5,7 +5,7 @@ from pusher import Config, Pusher
 pusher = Pusher(config=Config(app_id=u'91495', key=u'69534632919c7bdab408', secret=u'0b8865f2f0e391031ff5'))
 
 PORT = 7011
-HOST = '10.33.111.189'
+HOST = '10.1.10.13'
 games = {}
 socketDict = {}
 
